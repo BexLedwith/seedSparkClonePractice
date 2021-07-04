@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/74c93a0e14.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="styles.css" rel="stylesheet" />
     <title>Seed and Spark Clone</title>
   </head>
@@ -19,13 +23,14 @@
       <div class="container"></div>
     </header>
     <main>
-      <h1>Her First Kill</h1>
-      <h5>by <a href="#" id="tagline">Dagbasi Productions</a></h5>
+      <div class="header-top">
+        <h1>Her First Kill</h1>
+        <h5>by <a href="#" id="tagline">Dagbasi Productions</a></h5>
+      </div>
       <div class="main-col">
         <div class="trailer-container">
           <iframe
-            width="560"
-            height="315"
+            class="trailer"
             src="https://www.youtube.com/embed/ZQjiLe_KCcA"
             title="YouTube video player"
             frameborder="0"
@@ -51,8 +56,26 @@
             New York City, New York
           </h5>
         </div>
+        <h5 class="synopsis">
+          Three women of color are collaborating to produce a film that stars
+          Black women in roles that challenge and encourage societal change. By
+          breaking down stereotypes about motherhood, female strength, and
+          certain cultural expectations for women, Her First Kill aims to create
+          a societal paradigm shift.
+        </h5>
       </div>
-      <div class="side-col"></div>
+      <div class="side-bar">
+        <h2 class="greenlight">
+          <span class="bulb"> <i class="far fa-lightbulb"></i> </span>
+          Green Light
+        </h2>
+        <h3 class="financial">raised <span class="funds-raised"></span></h3>
+        <p class="status">for Production</p>
+        <div class="social-links">
+          <a href="#"><i class="far fa-heart"></i> Follow</a>
+          <a href="#"> <i class="fas fa-share-square"></i></a>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>

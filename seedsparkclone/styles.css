@@ -12,3 +12,44 @@ header .container {
   background: #f4f4f4;
   height: 4rem;
 }
+
+main {
+  display: flex;
+  flex-flow: row wrap; /*define flow direction and allow wrap same as flex-direction: row; flex-wrap: wrap */
+  justify-content: space-around;
+}
+
+.header-top {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trailer-container {
+  margin: 0;
+  padding: 0;
+}
+
+.trailer {
+  width: 810px;
+  height: 456px;
+}
+
+.main-col {
+  width: 810px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.side-bar {
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.project-tags {
+  display: inline-block;
+  width: 30%;
+  padding: 0 30px;
+  text-align: center;
+}
